@@ -42,6 +42,14 @@ Add kube-aws to your path:
 mv ${PLATFORM}/kube-aws /usr/local/bin
 ```
 
+### Homebrew users (OSX)
+
+Alternatively, [homebrew](http://brew.sh/) users can install kube-aws via brew [cask](https://caskroom.github.io/)
+
+```sh
+brew cask install kube-aws
+```
+
 ### AWS Credentials
 The supported way to provide AWS credentials to kube-aws is by exporting the following environment variables:
 
